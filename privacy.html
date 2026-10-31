@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy &middot; Odyssey Studios</title>
+<meta name="description" content="Privacy policy for the Miner Tycoon, Bee Tycoon and Blzn Studios Discord apps.">
+<style>*{box-sizing:border-box}
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#5c5c5c;--rule:#e3e3e3;--link:#0b5fff;--code:#f3f4f6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171a;--fg:#e8e8e8;--muted:#a0a0a0;--rule:#2c2f34;--link:#7aa7ff;--code:#22252a}}
+:root[data-theme="dark"]{--bg:#15171a;--fg:#e8e8e8;--muted:#a0a0a0;--rule:#2c2f34;--link:#7aa7ff;--code:#22252a}
+body{background:var(--bg);color:var(--fg);margin:0;padding:48px 16px 96px;
+font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .5rem}
+h2{font-size:1.3rem;margin:2.5rem 0 .75rem;padding-top:1.25rem;border-top:1px solid var(--rule)}
+h3{font-size:1.05rem;margin:1.75rem 0 .5rem;color:var(--muted)}
+p,li{margin:.65rem 0}
+ul{padding-left:1.25rem}
+a{color:var(--link)}
+code{background:var(--code);padding:.1em .35em;border-radius:4px;font-size:.9em}
+strong{font-weight:600}
+footer{max-width:720px;margin:4rem auto 0;padding-top:1.25rem;border-top:1px solid var(--rule);
+color:var(--muted);font-size:.875rem}</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p><strong>Applies to:</strong> Miner Tycoon, Bee Tycoon and Blzn Studios (Odyssey) Discord apps</p>
+<p><strong>Last updated:</strong> 31 October 2026</p>
+<p><strong>Contact:</strong> <a href="mailto:alexanderbrankin@gmail.com">alexanderbrankin@gmail.com</a></p>
+<h2>Who we are</h2>
+<p>These Discord apps are operated by Odyssey Studios (&quot;we&quot;, &quot;us&quot;). This policy</p>
+<p>explains what data the apps collect, why, how long we keep it, and how to have it</p>
+<p>removed.</p>
+<h2>What we collect</h2>
+<p>We only collect data from Discord servers our apps have been added to. We do not</p>
+<p>collect anything from servers we are not in, and we do not collect direct messages</p>
+<p>between users.</p>
+<h3>All three apps</h3>
+<ul>
+<li><strong>Discord user IDs and usernames</strong> — to identify who ran a command, who holds a</li>
+</ul>
+<p>  role, and who appears on a leaderboard.</p>
+<ul>
+<li><strong>Server, channel and role IDs</strong> — to know where to post and which roles to</li>
+</ul>
+<p>  apply.</p>
+<ul>
+<li><strong>Command usage</strong> — which command was run, when, and by whom, for rate limiting</li>
+</ul>
+<p>  and abuse prevention.</p>
+<h3>Miner Tycoon only</h3>
+<ul>
+<li>**Message content, author ID, author display name, channel, timestamp and</li>
+</ul>
+<p>  message link**, stored in a local database. This powers the server&#x27;s chat</p>
+<p>  analytics, moderation logging and the staff insights features.</p>
+<ul>
+<li><strong>Moderation records</strong> — edited and deleted message content, ban reasons and</li>
+</ul>
+<p>  nickname history, so moderators can review actions after the fact.</p>
+<ul>
+<li><strong>Member join and leave events</strong>, used for server growth reporting.</li>
+<li><strong>Epic Games in-game names</strong> that users voluntarily submit to link their account</li>
+</ul>
+<p>  to the leaderboard.</p>
+<h3>Bee Tycoon and Blzn Studios (Odyssey)</h3>
+<ul>
+<li><strong>Leaderboard submissions</strong> — screenshots or scores users upload, together with</li>
+</ul>
+<p>  the submitting user&#x27;s ID, synced to a private Google Sheet.</p>
+<ul>
+<li><strong>Notification subscriptions</strong> — which game-update roles a user has opted into.</li>
+<li><strong>Upload counts</strong> per user, to enforce daily submission limits.</li>
+</ul>
+<h3>What we never collect</h3>
+<ul>
+<li>Payment or financial information.</li>
+<li>Passwords or Discord authentication tokens belonging to users.</li>
+<li>Data about a user&#x27;s presence, status or activity. Our apps do not use the</li>
+</ul>
+<p>  Presence Intent.</p>
+<ul>
+<li>Message content in servers where the app has not been added.</li>
+</ul>
+<h2>Why we need privileged intents</h2>
+<ul>
+<li><strong>Message Content Intent</strong> — our apps use text commands (<code>!</code>, <code>+</code>, <code>OS!</code></li>
+</ul>
+<p>  prefixes) which cannot function without it. Miner Tycoon additionally uses</p>
+<p>  message content for its moderation log and server analytics features, which are</p>
+<p>  the core reason that server uses the app.</p>
+<ul>
+<li><strong>Server Members Intent</strong> — needed for role assignment via reactions, join and</li>
+</ul>
+<p>  leave reporting, leaderboard role management, and member counts. The cached</p>
+<p>  member list is also what lets the apps resolve a user ID to a member without</p>
+<p>  making an API call for every lookup.</p>
+<p>We do not request the Presence Intent and do not read user presence.</p>
+<h2>How long we keep it</h2>
+<ul>
+<li>Message logs and analytics: <strong>90 days</strong>, then deleted automatically.</li>
+<li>Moderation records: <strong>12 months</strong>, as they may be needed to review a past action.</li>
+<li>Leaderboard entries and subscriptions: kept until the user asks for removal, or</li>
+</ul>
+<p>  until they leave the server.</p>
+<ul>
+<li>Everything else: deleted when the app is removed from the server.</li>
+</ul>
+<h2>Who we share it with</h2>
+<p>We do not sell, rent or trade user data, and we do not share it for advertising.</p>
+<p>Data is shared only with the services needed to run the apps:</p>
+<ul>
+<li><strong>Google Sheets</strong> — leaderboard submissions, in a private sheet accessible only</li>
+</ul>
+<p>  to server staff.</p>
+<ul>
+<li><strong>Our hosting provider</strong> — the apps run on a private server where this data is</li>
+</ul>
+<p>  stored.</p>
+<p>We may disclose data if required by law, or to investigate abuse of our services.</p>
+<h2>Security</h2>
+<p>Data is stored on access-controlled hosting. Credentials are kept in environment</p>
+<p>variables, not in source code. Access is limited to the app operators.</p>
+<h2>Your rights</h2>
+<p>You can ask us to show you what data we hold about you, correct it, or delete it.</p>
+<p>Email <a href="mailto:alexanderbrankin@gmail.com">alexanderbrankin@gmail.com</a> from an address we can tie to your Discord account, or</p>
+<p>contact a server administrator, and we will action it within 30 days.</p>
+<p>Removing the app from a server, or leaving that server, stops all further</p>
+<p>collection about you in it.</p>
+<h2>Children</h2>
+<p>Our apps are not directed at anyone under 13, in line with Discord&#x27;s Terms of</p>
+<p>Service. If we learn we hold data about a child under 13, we delete it.</p>
+<h2>Changes</h2>
+<p>If we change this policy we will update the date above and announce it in the</p>
+<p>servers the apps are in.</p>
+</main>
+<footer>Odyssey Studios &middot; <a href="./">Home</a></footer>
+</body>
+</html>
