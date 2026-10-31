@@ -57,6 +57,13 @@ color:var(--muted);font-size:.875rem}</style>
 <p>  message link**, stored in a local database. This powers the server&#x27;s chat</p>
 <p>  analytics, moderation logging and the staff insights features.</p>
 <ul>
+<li><strong>Message content sent to Google Gemini.</strong> Some messages are passed to Google&#x27;s</li>
+</ul>
+<p>  Gemini API to generate staff summaries and to detect questions the bot can answer</p>
+<p>  automatically. Google processes this content on our behalf under their API terms.</p>
+<p>  We do not use it to train any model of our own, and we do not permit it to be</p>
+<p>  used to train Google&#x27;s.</p>
+<ul>
 <li><strong>Moderation records</strong> — edited and deleted message content, ban reasons and</li>
 </ul>
 <p>  nickname history, so moderators can review actions after the fact.</p>
@@ -115,6 +122,10 @@ color:var(--muted);font-size:.875rem}</style>
 <li><strong>Google Sheets</strong> — leaderboard submissions, in a private sheet accessible only</li>
 </ul>
 <p>  to server staff.</p>
+<ul>
+<li><strong>Google Gemini API</strong> — message content from the Miner Tycoon server, for the</li>
+</ul>
+<p>  staff summaries and automatic answers described above.</p>
 <ul>
 <li><strong>Our hosting provider</strong> — the apps run on a private server where this data is</li>
 </ul>
